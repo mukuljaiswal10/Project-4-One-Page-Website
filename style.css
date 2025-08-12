@@ -1,0 +1,360 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+
+/* header-styling */
+header 
+{
+    width: 100%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 16px 0px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.header-mid 
+{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-mid figure 
+{
+    padding-left: 16px;
+}
+.header-mid nav ul 
+{
+    display: flex;
+}
+.header-mid nav ul li a 
+{
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    /* border: 1px solid red;
+    padding-bottom: 30px; */
+    margin: 0px 17px;
+}
+/* end */
+
+/* banner-styling */
+#banner 
+{
+    width: 100%;
+    height: 87.8vh;
+    background: url(images/imgi_7_the-town-bg-01.jpg);
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#banner h2 
+{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+#banner i 
+{
+    margin-top: 40px;
+    font-size: 80px;
+    color: white;
+    transition: 0.5s;
+}
+#banner i:hover 
+{
+    color:#3496d8;
+}
+/* end */
+
+/* introduction-styling */
+#introduction
+{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.introduction-mid 
+{
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.introduction-img
+{
+    flex-basis: 45%;
+}
+.introduction-img img 
+{
+    width: 100%;
+    display: block;
+}
+.introduction-content 
+{
+    flex-basis: 50%;
+}
+.introduction-content h2 
+{
+    font-size: 45px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 35px;
+    color: #3496d8;
+}
+.introduction-content p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 30px;
+    color: #8f8f8f;
+    padding-bottom: 30px;
+}
+.introduction-content button 
+{
+    padding: 13px 40px;
+    background: #3496d8;
+    border: none;
+    color: white;
+    font-size: 19px;
+    transition: 0.5s;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.introduction-content button:hover
+{ 
+background-color: #328bc682;
+}
+.introduction-cards 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-list 
+{
+    flex-basis: 30%;
+    text-align: center;
+    padding-top:80px;
+}
+.card-list i 
+{
+    font-size: 60px;
+    color: #3496d8;
+}
+.card-list h3 
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px 0;
+    color: #3496d8;
+}
+.card-list p 
+{
+    font-size: 19px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+    color: #8f8f8f;
+}
+/* ending */
+
+/* work-styling */
+#work 
+{
+    width: 100%;
+    padding-top:100px;
+    padding-bottom: 60px;
+}
+.work-mid 
+{
+    max-width: 1320px;
+    margin: auto;
+}
+.work-mid h3
+{
+    font-size: 45px;
+    color: #3496d8;
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 35px;
+}
+.work-mid p 
+{
+    text-align: center;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #8f8f8f;
+    font-weight: normal;
+    margin-bottom: 65px;
+}
+.work-card 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.work-card-list 
+{
+    flex-basis: 18%;
+}
+.work-card-list img 
+{
+    width: 100%;
+}
+/* end */
+
+/* contact-styling */
+#contact 
+{
+    width: 100%;
+    /* height: 87.5vh; */
+    background: url(images/imgi_9_the-town-bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-mid 
+{
+    max-width: 1120px;
+    margin: auto;
+}
+.contact-mid h3 
+{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 120px;
+}
+.brdr-top 
+{
+    margin-top: 9px;
+    border: 1px solid white;
+    width: 100%;
+}
+.brdr 
+{
+    width: 25%;
+    background-color: white;
+    height:8px;
+    margin-bottom: 55px;
+}
+.contact-mid p:nth-child(4)
+{
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: normal;
+    line-height: 35px;
+    margin-bottom: 25px;
+}
+.contact-list
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-same 
+{
+    flex-basis: 50%;
+    margin: 30px 0px;
+}
+.contact-same i 
+{
+    font-size: 2.5rem;
+    color: white;
+    padding-right: 19px;
+    transition: 0.7s;
+}
+.contact-same a 
+{
+    display: flex;
+    align-items: center;
+}
+.contact-same a:hover i
+{
+    color:#0A8FE7;
+}
+.contact-same a:hover span
+{
+    color:#0A8FE7;
+}
+.contact-same span 
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    line-height: 38px;
+    transition: 0.7s;
+}
+input 
+{
+    padding: 10px 15px;
+    margin-right: 10px;
+    background: inherit;
+    width: 235px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+input::placeholder 
+{
+    color: white;
+}
+.subscribe button 
+{
+    border-radius: 5px;
+    padding: 10px 29px;
+    font-size: 14px;
+    background: #ced4da;
+    border: none;
+    cursor: pointer;
+}
+.contact-mid p:nth-child(6)
+{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.679);
+    font-size: 15px;
+    padding-bottom:10px;
+}
+.tem 
+{
+    transition: 0.5s;
+}
+.tem:hover 
+{
+    color:#0A8FE7;
+    cursor: pointer;
+}
+/* end */
