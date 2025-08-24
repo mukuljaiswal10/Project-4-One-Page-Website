@@ -23,6 +23,10 @@
     {
         height:88vh;
     }
+    #introduction
+    {
+        padding-bottom:10px;
+    }
     .introduction-mid 
     {
         flex-direction: column;
@@ -55,12 +59,31 @@
         padding-top: 50px;
         box-shadow: 0px 0px 10px 2px #ccc;
         border-radius: 20px;
-        margin: 20px 0px;
+        margin: 10px 0px;
         padding: 20px;
     }
     .card-list p
     {
         text-align: justify;
+    }
+    #work
+    {
+        padding-top:120px;
+        padding-bottom:50px;
+    }
+    .work-mid
+    {
+        padding: 20px;
+    }
+    .work-mid p 
+    {
+        text-align:center;
+        font-size: 16px;
+    }
+    .work-card-list 
+    {
+        flex-basis: 96%;
+        margin: 2%;
     }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
@@ -126,6 +149,25 @@
     {
         text-align: justify;
     }
+    #work
+    {
+        padding-top:120px;
+        padding-bottom:50px;
+    }
+    .work-mid
+    {
+        padding: 20px;
+    }
+    .work-mid p 
+    {
+        text-align:center;
+        font-size: 16px;
+    }
+    .work-card-list 
+    {
+        flex-basis: 96%;
+        margin: 2%;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -180,6 +222,29 @@
     {
         text-align: justify;
     }
+    #work
+    {
+        padding-top:70px;
+        padding-bottom:50px;
+    }
+    .work-mid
+    {
+        padding: 20px;
+    }
+    .work-mid p 
+    {
+        text-align:center;
+        font-size: 16px;
+    }
+    .work-card
+    {
+        justify-content: center;
+    }
+    .work-card-list 
+    {
+        flex-basis:46%;
+        margin: 2%;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
@@ -211,6 +276,10 @@
     {
         text-align: justify;
     }
+    .work-mid
+    {
+        padding: 20px;
+    }
 }
 @media only screen and (min-width:1200px) and (max-width:1399.5px)
 {
@@ -233,6 +302,10 @@
     .card-list p
     {
         text-align: justify;
+    }
+    .work-mid
+    {
+        padding: 20px;
     }
 }
 @media only screen and (min-width:1400px) 
