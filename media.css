@@ -19,6 +19,10 @@
         letter-spacing: 0px;
         margin: 0px 10px;
     }
+    #banner
+    {
+        height:88vh;
+    }
 }
 @media only screen and (min-width:481px) and (max-width:767.5px)
 {
@@ -40,6 +44,10 @@
         margin: 0px;
         letter-spacing: 0px;
     }
+    #banner
+    {
+        height:90vh;
+    }
 }
 @media only screen and (min-width:768px) and (max-width:991.5px)
 {
@@ -47,12 +55,20 @@
     {
         padding: 0px 20px;
     }
+    #banner
+    {
+        height:95vh;
+    }
 }
 @media only screen and (min-width:992px) and (max-width:1199.5px)
 {
     .header-mid
     {
         padding: 0px 20px;
+    }
+    #banner
+    {
+        height:95vh;
     }
 }
 @media only screen and (min-width:1200px) and (max-width:1399.5px)
